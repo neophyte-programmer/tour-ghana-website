@@ -12,14 +12,14 @@ Visit the live version of the website [here](https://tour-ghana-web.netlify.app/
     <img src="https://github.com/neophyte-programmer/tour-ghana-website/blob/main/screenshot1.png" />
 </a>&nbsp;&nbsp;
 <a href="https://tour-ghana-web.netlify.app/">
-    <img src="https://github.com/neophyte-programmer/tour-ghana-website/blob/main/screenshot2.png" />
+    <img src="https://github.com/neophyte-programmer/tour-ghana-website/blob/main/screenshot2.png"  />
 </a>&nbsp;&nbsp;
 
 ### Phone Preview
 
 <a href="https://tour-ghana-web.netlify.app/">
-    <img src="https://github.com/neophyte-programmer/tour-ghana-website/blob/main/screenshot3.jpeg" />
+    <img src="https://github.com/neophyte-programmer/tour-ghana-website/blob/main/screenshot3.jpeg" style="width: 380px;"  />
 </a>&nbsp;&nbsp;
 <a href="https://tour-ghana-web.netlify.app/">
-    <img src="https://github.com/neophyte-programmer/tour-ghana-website/blob/main/screenshot4.jpeg" />
+    <img src="https://github.com/neophyte-programmer/tour-ghana-website/blob/main/screenshot4.jpeg" style="width: 380px;"  />
 </a>&nbsp;&nbsp;
