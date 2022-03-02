@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <title>Travel Website</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Tour Ghana</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">Discover</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Place</a>
+                    </li>
+                     
+                </ul>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home" id="home">
+            <img src="/img/home1.jpg" alt="" class="home__img">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">Discover your next tour location</span>
+                    <h1 class="home__data-title">Explore The <br> Best Beautiful <br> Sites.</h1>
+                    <a href="#" class="button">Explore</a>
+                </div>
+                <div class="home__social">
+                    <a href="https://facebook.com" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="home__social-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                </div>
+                <div class="home__info">
+                    <div>
+                        <span class="home__info-title">5 Best Places To Visit</span>
+                        <a href="" class="button button--flex button--link home__info-button">
+                            More
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info-overlay">
+                        <img src="/img/home2.jpg" alt="" class="home__info-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        More Information <br> About The Best Sites
+                    </h2>
+                    <p class="about__description">
+                        You can find the most beautiful and pleasant tourist sites at the best prices with special discounts. 
+                        You choose the place and we will guide you all the way. Choose a destination now! 
+                    </p>
+                    <a href="#" class="button">Make Reservation</a>
+                </div>
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="/img/about1.jpg" alt="" class="about__img-one">
+                    </div>
+                    <div class="about__img-overlay">
+                        <img src="/img/about2.jpg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== DISCOVER ====================-->
+        <section class="discover section" id="discover">
+            <h2 class="section__title">Discover the most <br> attractive places</h2>
+            
+            <div class="discover__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== DISCOVER 1 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="img/discover1.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Labadi Beach</h2>
+                            <span class="discover__description">24 tours available</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 2 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="img/discover2.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Mt. Afadzato</h2>
+                            <span class="discover__description">15 tours available</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 3 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="img/discover3.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Wli Falls</h2>
+                            <span class="discover__description">18 tours available</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 4 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="img/discover4.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Aburi Gardens</h2>
+                            <span class="discover__description">32 tours available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== EXPERIENCE ===============-->
+        <section class="experience section">
+            <h2 class="section__title">With Our Experience <br>We Will Serve You</h2>
+            <div class="experience__container container grid">
+                <div class="experience__content grid">
+                    <div class="experience__data">
+                        <h2 class="experience__number">20</h2>
+                        <span class="experience__description">Years <br> Experience</span>
+                    </div>
+                    <div class="experience__data">
+                        <h2 class="experience__number">650+</h2>
+                        <span class="experience__description">Complete <br> Tours</span>
+                    </div>
+                    <div class="experience__data">
+                        <h2 class="experience__number">40+</h2>
+                        <span class="experience__description">Tourist <br> Destinations</span>
+                    </div>
+                </div>
+                <div class="experience__img grid">
+                    <div class="experience__overlay">
+                        <img src="/img/experience1.jpg" alt="" class="experience__img-one">
+                    </div>
+                    <div class="experience__overlay">
+                        <img src="/img/experience2.jpg" alt="" class="experience__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== VIDEO ===============-->
+        <section class="video section">
+            <h2 class="section__title">Video Tour</h2>
+
+            <div class="video__container container">
+                <p class="video__description">Take a tour with our short video and find interesting and pleasant places for you and your loved ones</p>
+
+                <div class="video__content">
+                    <video id="video-file">
+                        <source src="/video/video.mp4" type="video/mp4">
+                    </video>
+
+                    <button class="button button--flex video__button" id="video-button">
+                        <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!--=============== PLACES ===============-->
+        <section class="place section" id="place">
+            <h2 class="section__title">Choose Your Place</h2>
+            
+            <div class="place__container container grid">
+                <!--=============== PLACE CARD 1 ===============-->
+                <div class="place__card">
+                    <img src="/img/place1.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Mole Park</h3>
+                            <span class="place__subtitle">Northern</span>
+                            <span class="place__price">$499</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <!--=============== PLACE CARD 2 ===============-->
+                <div class="place__card">
+                    <img src="/img/place2.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">5.0</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Wli Falls</h3>
+                            <span class="place__subtitle">Volta</span>
+                            <span class="place__price">$599</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <!--=============== PLACE CARD 3 ===============-->
+                <div class="place__card">
+                    <img src="/img/place3.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.9</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">K. N. Mausoleum</h3>
+                            <span class="place__subtitle">Greater Accra</span>
+                            <span class="place__price">$299</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <!--=============== PLACE CARD 4 ===============-->
+                <div class="place__card">
+                    <img src="/img/place4.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.7</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Kakum Park</h3>
+                            <span class="place__subtitle">Central </span>
+                            <span class="place__price">$2499</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <!--=============== PLACE CARD 5 ===============-->
+                <div class="place__card">
+                    <img src="/img/place5.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Nzulenzu</h3>
+                            <span class="place__subtitle">Western</span>
+                            <span class="place__price">$199</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <!--=============== PLACE CARD 6 ===============-->
+                <div class="place__card">
+                    <img src="/img/place6.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Elmina Castle</h3>
+                            <span class="place__subtitle">Cape Coast</span>
+                            <span class="place__price">$699</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <!--=============== PLACE CARD 7 ===============-->
+                <div class="place__card">
+                    <img src="/img/place7.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Lake Bosomtwe</h3>
+                            <span class="place__subtitle">Ashanti</span>
+                            <span class="place__price">$499</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <!--=============== PLACE CARD 8 ===============-->
+                <div class="place__card">
+                    <img src="/img/place8.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Umbrella Rock</h3>
+                            <span class="place__subtitle">Eastern</span>
+                            <span class="place__price">$299</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <!--=============== PLACE CARD 9 ===============-->
+                <div class="place__card">
+                    <img src="/img/place9.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Aburi Gardens</h3>
+                            <span class="place__subtitle">Eastern</span>
+                            <span class="place__price">$1999</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+        <!--=============== SUBSCRIBE ===============-->
+        <section class="subscribe section">
+            <div class="subscribe__bg">
+                <div class="subscribe__container container">
+                    <h2 class="section__title subscribe__title">Subscribe To <br> Our Newsletter</h2>
+
+                    <p class="subscribe__description">Subscribe to our newsletter and get a special 30% discount</p>
+
+                    <form action="" class="subscribe__form">
+                        <input type="text" placeholder="Enter email" class="subscribe__input">
+                        <button class="button">Subscribe</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        <!--=============== SPONSORS ===============-->
+        <section class="sponsors section">
+            <div class="sponsor__container container grid">
+                <div class="sponsor__content">
+                    <img src="/img/sponsors1.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="/img/sponsors2.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="/img/sponsors3.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="/img/sponsors4.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="/img/sponsors5.png" alt="" class="sponsor__img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Travel</h3>
+                    <p class="footer__description">Travel you choose the <br> destination, 
+                        we offer you the <br> experience.
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">About</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Features</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">News & Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Company</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Team</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Plans & Pricing</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Become a member</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Support</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">FAQs</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Support Center</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2022 Nutifafa. All rights reserved.</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                    <a href="#" class="footer__terms-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="js/scrollreveal.min.js"></script>
+        
+    <!--=============== SWIPER JS ===============-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+</body>
+</html>
